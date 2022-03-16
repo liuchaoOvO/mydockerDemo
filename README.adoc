@@ -1,0 +1,9 @@
+#!/bin/bash
+#Docker for Java Application
+# 若发现执行mvn install dockerfile:build 报zsh: command not found: mvn 先执行source ~/.bash_profile
+#
+# 进入到当前文件路径 执行  mvn install dockerfile:build 构建镜像
+
+mvn install dockerfile:build
+
+
